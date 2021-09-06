@@ -1,0 +1,11 @@
+  
+name: helloworld
+autocreate: true
+command: ["bash"]
+forward:
+  - 8081:8081
+  - 9229:9229
+sync:
+  - .:/src
+persistentVolume:
+  enabled: false

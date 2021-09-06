@@ -4,5 +4,5 @@ configMapGenerator:
 - name: config-app
   files:
   - config.yaml
-#resources:
-#- deployment.yaml
+resources:
+- deployment.yaml
